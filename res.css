@@ -1,7 +1,11 @@
 .main {
   border-style: solid;
-  color:black;
-  width: 300px;
+  color:red;
+  width: 270px;
+  display: inline-block;
+  width: 200px;
+  height: 350px;
+  margin: 1em;
 
 }
 h2 {
@@ -9,19 +13,27 @@ h2 {
 }
 p {
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
+img{
+  align-self: center;
+  position: relative;
+  width: 70px;
+  margin:1em;
+  }
 .sam {
-  color:white;
+  color:blue;
   width:100px;
-  margin: auto;
+  height:150px;
+  margin: 0.3em auto;
+  border-style: solid;
+  //border-spacing:centre;
 }
-.sam1 {
-  color:white;
-  width:100px;
-  margin: auto;
+.skill{
+  display: flex;
+  flex-flow: row wrap;
 }
-.sam2 {
-  color:white;
-  width:100px;
-  margin: auto;
+
+div {
+  border-style: solid;
 }
