@@ -12,10 +12,16 @@
   opacity: 1;
   animation: fadeIn 5s ease 1s 1 normal;
 
+  //background: #2db34a;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+
 }
 
 .main:hover {
    box-shadow: 6px 6px 5px grey;
+   background: #9E7418;
 }
 h1{
   font-family: 'Lato', sans-serif;
